@@ -1,1 +1,7 @@
-# Resume
+# GoIT marathon
+
+## Day_1
+
+1. Copy and open the <a href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnlQOUlfLXZ5UXVtMUFOZ2ZWbnp5MGVacnFZZ3xBQ3Jtc0ttek85UjduQ3M5Y2c5ckJMRVFTVi04bjY4T0ZOeWNmTUZfMWRsUmFsV2RYQlFjNC1sSFQwZVRVVTg0T0RXTE9Ca0xSaHRrR1dEZVhoM2FIbmNHVjg5NDd5cS1TR1h6Smg3UVVRbURsb2JXMDdmVmNuYw&q=https%3A%2F%2Fwww.figma.com%2Ffile%2FXNoGCnwovP19H9hvUjP2gO%2FResume&v=BRk8U3CH6hE">layout</a> in the Figma online editor.
+2. Install and configure VSCode.
+3. Prepare the project in VSCode: basic structure + five levels of headers.
