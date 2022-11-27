@@ -17,7 +17,7 @@
 
 ## Day_3
 
-## Tasks
+### Tasks
 
 1. Add styles to your HTML layout.
 2. Watch a video on Soft Skills.
