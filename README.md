@@ -14,3 +14,10 @@
 1. Repeat the layout as shown in the video.
 2. Complete the Soft Skills, third place of work and Education blocks.
 3. Immediately fill out the resume with your information.
+
+## Day_3
+
+## Tasks
+
+1. Add styles to your HTML layout.
+2. Watch a video on Soft Skills.
