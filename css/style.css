@@ -213,6 +213,10 @@ body::-webkit-scrollbar-thumb {
   transition: color 0.3s linear;
 }
 
+.sidebar .contacts .contacts__info p:first-child{
+  margin: 10px 0px 5px 0px;
+}
+
 .sidebar .contacts .contacts__info p a:hover {
   font-size: 14px;
   color: var(--light-gray);
