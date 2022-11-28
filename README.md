@@ -26,3 +26,10 @@
 
 1. Add styles to your HTML layout.
 2. Watch a video on Soft Skills.
+
+## Day_4
+
+### Tasks
+
+1. Screenshot of the sidebar (working page in the browser).
+2. Screenshot of the source code of the Soft Skills block (html + css).
