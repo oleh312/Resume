@@ -24,26 +24,30 @@ h6 {
   -webkit-tap-highlight-color: transparent;
 }
 
-h1,h2,h3,h4,h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
 }
 
-ul{
+ul {
   padding-left: 16px;
 }
 
-:root{
+:root {
   --black: #000000;
   --gray: #595959;
-  --white: #FFFFFF;
-  --light-gray: #A8A8A8;
-  --orange: #FB6D3A;
-  --light-white: #F5F7FA;
-  --dark-blue: #1E2939;
-
+  --white: #ffffff;
+  --light-gray: #a8a8a8;
+  --orange: #fb6d3a;
+  --light-white: #f5f7fa;
+  --dark-blue: #1e2939;
 }
 
-html,body{
+html,
+body {
   width: 100%;
   height: 100%;
   min-width: 320px;
@@ -51,86 +55,108 @@ html,body{
   margin: 0;
   padding: 0;
   background: var(--light-white);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.main{
+::selection {
+  background-color: var(--gray);
+  color: var(--white);
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--light-white);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--dark-blue);
+  border-radius: 15px;
+}
+
+.main {
   padding-left: 60px;
 }
 
-.about-user{
+.about-user {
   color: var(--black);
   font-weight: bold;
   margin-top: 102px;
 }
 
-.about-user h2{
+.about-user h2 {
   font-size: 15px;
 }
 
-.about-user h1{
+.about-user h1 {
   padding: 19px 0px 24px 0px;
   font-size: 45px;
 }
 
-.about-user p{
+.about-user p {
   max-width: 400px;
   font-size: 14px;
   color: var(--gray);
 }
 
-.projects{
+.projects {
   margin: 40px 0px 51px 0px;
 }
 
-.projects h3{
+.projects h3 {
   font-size: bold;
   font-size: 22px;
   color: var(--black);
   margin-bottom: 8px;
 }
 
-.projects ol{
+.projects ol {
   padding: 0px 0px 0px 18px;
 }
 
-.projects ol li:nth-child(2){
+.projects ol li:nth-child(2) {
   padding: 5px 0px;
 }
 
-.projects ol li a{
+.projects ol li a {
   text-decoration: none;
   color: var(--gray);
   margin-left: 5px;
   font-size: 14px;
-  transition: color .3s linear;
+  transition: color 0.3s linear;
 }
 
-.projects ol li a:hover{
-  transition: color .3s linear;
+.projects ol li a:hover {
+  transition: color 0.3s linear;
   color: var(--black);
 }
 
-.projects ol li span{
+.projects ol li span {
   color: var(--gray);
 }
 
-.projects ol li span b{
+.projects ol li span b {
   color: var(--black);
 }
 
-.work-experiance h3{
-  font-size: 22px;
-  font-weight: bold;
-  color: var(--black)
+.projects ol li span .underlines {
+  display: inline;
 }
 
-.company h4{
+.work-experiance h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.company h4 {
   color: var(--black);
   margin: 12px 0px;
 }
 
-.company h4 span{
+.company h4 span {
   color: var(--orange);
 }
 
@@ -140,57 +166,57 @@ html,body{
   margin-bottom: 8px;
 }
 
-.company h5 span{
+.company h5 span {
   font-weight: bold;
   color: var(--black);
 }
 
-.company ul{
+.company ul {
   margin: 0;
 }
 
-.company ul li{
+.company ul li {
   font-size: 14px;
   color: var(--gray);
   margin: 5px 0px;
 }
 
-.company:last-child{
+.company:last-child {
   margin-bottom: 43px;
 }
 
-.education h3{
+.education h3 {
   font-size: 22px;
   font-weight: bold;
   color: var(--black);
 }
 
-.education h4{
+.education h4 {
   font-size: 16px;
   font-weight: bold;
   color: var(--orange);
   margin: 12px 0px;
 }
 
-.education h5{
+.education h5 {
   font-size: 14px;
   font-weight: bold;
   color: var(--black);
   margin-bottom: 12px;
 }
 
-.education p{
+.education p {
   font-size: 12px;
   color: var(--light-gray);
   padding-bottom: 15px;
 }
 
-.education p span{
+.education p span {
   font-weight: bold;
   color: var(--black);
 }
 
-.sidebar{
+.sidebar {
   width: 100%;
   height: 100%;
   background: var(--dark-blue);
@@ -203,64 +229,69 @@ html,body{
   margin: 40px 0px 50px 0px;
 }
 
-.sidebar .contacts{
+.sidebar .contacts {
   margin-left: 40px;
 }
 
-.sidebar .contacts h3{
+.sidebar .contacts h3 {
   font-size: 22px;
   font-weight: bold;
   color: var(--white);
 }
 
-.sidebar .contacts .contacts__info span{
+.sidebar .contacts .contacts__info span {
   font-size: 14px;
   color: var(--white);
   font-weight: bold;
   margin-right: 4px;
 }
 
-.sidebar .contacts .contacts__info p a{
+.sidebar .contacts .contacts__info p a {
   font-size: 14px;
   color: var(--gray);
-  transition: color .3s linear;
+  transition: color 0.3s linear;
 }
 
-.sidebar .contacts .contacts__info p a:hover{
+.sidebar .contacts .contacts__info p a:hover {
   font-size: 14px;
   color: var(--light-gray);
-  transition: color .3s linear;
+  transition: color 0.3s linear;
 }
 
-.sidebar .contacts .contacts__info p:first-child a{
+.sidebar .contacts .contacts__info p:first-child a {
   text-decoration: none;
 }
 
-.tech-skills, .soft-skills{
+.tech-skills,
+.soft-skills {
   margin-left: 40px;
   margin-top: 44px;
 }
 
-.tech-skills h3, .soft-skills h3 {
+.tech-skills h3,
+.soft-skills h3 {
   font-size: 22px;
   font-weight: bold;
   color: var(--white);
 }
 
-.tech-skills ul, .soft-skills ul{
+.tech-skills ul,
+.soft-skills ul {
   padding-left: 19px;
   margin-top: 8px;
   margin-bottom: 0px;
   list-style: none;
 }
 
-.tech-skills ul li, .soft-skills ul li{
+.tech-skills ul li,
+.soft-skills ul li {
   font-size: 14px;
   color: var(--white);
   margin: 5px 0px;
 }
 
-.tech-skills ul li::before, .soft-skills ul li::before{
+.tech-skills ul li::before,
+.soft-skills ul li::before {
   content: "\2022";
   color: var(--orange);
   font-weight: bold;
@@ -269,27 +300,46 @@ html,body{
   margin-left: -1em;
 }
 
-@media screen and (max-width: 767px){
-  .about-user{
+@media screen and (max-width: 1200px) {
+  .projects ol li a {
+    margin-right: 10px;
+  }
+  .projects ol li span .underlines {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-user {
     margin-top: 35px;
   }
-  .about-user h1{
+  .about-user h1 {
     padding: 11px 0px 12px 0px;
     font-size: 34px;
   }
   .about-user p {
     margin: 0;
   }
-  .main{
+  .main {
     padding-left: 0px;
   }
-  .projects{
+  .projects {
     margin: 20px 0px 25px 0px;
   }
-  .education h4{
+  .education h4 {
     margin: 6px 0px;
   }
   .company:last-child {
     margin-bottom: 21px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .projects ol li a {
+    margin-right: 0px;
+  }
+  .projects ol li span {
+    margin-top: 3px;
+    display: block;
   }
 }
