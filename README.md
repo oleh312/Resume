@@ -33,3 +33,11 @@
 
 1. Screenshot of the sidebar (working page in the browser).
 2. Screenshot of the source code of the Soft Skills block (html + css).
+
+## Day_5
+
+### Tasks
+
+1. Screenshot of the working page in the browser.
+2. Screenshot of the source code of html + css with the third job.
+3. Screenshot of the html + css source code of the Education block.
