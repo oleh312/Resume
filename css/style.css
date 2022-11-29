@@ -47,15 +47,16 @@ body::-webkit-scrollbar-thumb {
 
 .about-user {
   color: var(--black);
-  font-weight: bold;
   margin-top: 102px;
 }
 
 .about-user h2 {
   font-size: 15px;
+  font-weight: bold;
 }
 
 .about-user h1 {
+  font-weight: bold;
   padding: 19px 0px 24px 0px;
   font-size: 45px;
 }
@@ -71,7 +72,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .projects h3 {
-  font-size: bold;
+  font-weight: bold;
   font-size: 22px;
   color: var(--black);
   margin-bottom: 8px;
@@ -119,6 +120,7 @@ body::-webkit-scrollbar-thumb {
 .company h4 {
   color: var(--black);
   margin: 12px 0px;
+  font-weight: bold;
 }
 
 .company h4 span {
@@ -222,8 +224,8 @@ body::-webkit-scrollbar-thumb {
   transition: color 0.3s linear;
 }
 
-.sidebar .contacts .contacts__info p:first-child a {
-  text-decoration: none;
+.sidebar .contacts .contacts__info p:last-child a {
+  text-decoration: underline;
 }
 
 .tech-skills,
