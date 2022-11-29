@@ -213,12 +213,11 @@ body::-webkit-scrollbar-thumb {
   transition: color 0.3s linear;
 }
 
-.sidebar .contacts .contacts__info p:first-child{
+.sidebar .contacts .contacts__info p:first-child {
   margin: 10px 0px 5px 0px;
 }
 
 .sidebar .contacts .contacts__info p a:hover {
-  font-size: 14px;
   color: var(--light-gray);
   transition: color 0.3s linear;
 }
@@ -271,6 +270,16 @@ body::-webkit-scrollbar-thumb {
   }
   .projects ol li span .underlines {
     display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sidebar .contacts {
+    margin-left: 20px;
+  }
+  .tech-skills,
+  .soft-skills {
+    margin-left: 20px;
   }
 }
 
