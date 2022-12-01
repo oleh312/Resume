@@ -87,7 +87,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .projects ol li a {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--gray);
   margin-left: 5px;
   font-size: 14px;
