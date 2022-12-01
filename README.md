@@ -41,3 +41,10 @@
 1. Screenshot of the working page in the browser.
 2. Screenshot of the source code of html + css with the third job.
 3. Screenshot of the html + css source code of the Education block.
+
+## Day_6
+
+## Tasks
+
+1. Finish the project and upload the resume site to hosting.
+2. Send the link here, in the GoIT Marathon Chat, and to your friends. Let them see your pumping level for this week 😱
