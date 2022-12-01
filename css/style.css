@@ -82,8 +82,8 @@ body::-webkit-scrollbar-thumb {
   padding: 0px 0px 0px 18px;
 }
 
-.projects ol li:nth-child(2) {
-  padding: 5px 0px;
+.projects ol li {
+  padding: 3px 0px;
 }
 
 .projects ol li a {
